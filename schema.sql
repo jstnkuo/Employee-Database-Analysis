@@ -38,7 +38,7 @@ CREATE TABLE dept_manager(
 
 	
 CREATE TABLE titles(
-	title_id VARCHAR(10),
-	title VARCHAR(30),
+	title_id VARCHAR(10) NOT NULL,
+	title VARCHAR(30) NOT NULL,
 	PRIMARY KEY(title_id)
 	)
